@@ -1,8 +1,10 @@
 Overview
+
 An under-scanning reconstruction method guided by dual physical models, which includes an LCT (geometric optics) branch 
 and an FK (wave propagation) branch to learn global structures and local textures, respectively.
 
-Code Details:
+Code Details:  
+
 1.lct_1_10.py utilizes a light-cone transform (LCT) model to guide the network in learning coarse-grained features.  
 
 2.fk.py employs a frequency-wavenumber migration (FK) model to guide the network in learning detailed features of objects.  
